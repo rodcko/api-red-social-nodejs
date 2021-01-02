@@ -27,13 +27,13 @@ function get(table, id) {
     return list(search);
 }
 
-function upsert(table, data, action) {
-    action = action || 'insert'
+async function upsert(table, data) {
     let key = table;
-    if (action !== 'insert')
+    if (data && data.id) {
         key = key + '_' + data.id;
-    
-    client.setex(key,10, JSON.stringify(data));
+    }
+
+    client.setex(key, 10, JSON.stringify(data));
     return true;
 }
 
