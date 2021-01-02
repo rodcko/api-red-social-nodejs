@@ -12,6 +12,7 @@ module.exports = {
         database: process.env.MYSQL_DB || 'i2empQbkdq',
     },
     mysqlService: {
+        host: process.env.MYSQL_SRV_HOST || 'localhost',
         port: process.env.MYSQL_SRV_PORT || 3001,
     }
 }
