@@ -22,5 +22,10 @@ module.exports = {
     cacheService: {
         host: process.env.MYSQL_SRV_HOST || 'localhost',
         port: process.env.MYSQL_SRV_PORT || 3003,
+    },
+    redis: {
+        host: process.env.REDIS_HOST || 'redis-13909.c15.us-east-1-2.ec2.cloud.redislabs.com',
+        port: process.env.REDIS_PORT || 13909,
+        password: process.env.REDIS_PASS || 'TNauJvzkqMf2DLcH4hzztcgLp1SrVGLM',
     }
 }
