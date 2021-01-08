@@ -21,5 +21,5 @@ En la carpeta raiz ejecutar los siguientes comandos para iniciar cada **api** co
 
 ------------
 
-- (https://platzi.com/clases/practico-node/ "Curso Practico de Node.js")
-- (https://platzi.com/p/rodcko2417/ "Usuario de Platzi")
+Curso Practico de Node.js - https://platzi.com/clases/practico-node/
+Usuario de Platzi: https://platzi.com/p/rodcko2417/
