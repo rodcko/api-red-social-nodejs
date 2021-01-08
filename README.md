@@ -19,5 +19,7 @@ En la carpeta raiz ejecutar los siguientes comandos para iniciar cada **api** co
 - `pm2 start api/index.js`     - API principal
 
 
-(https://platzi.com/clases/practico-node/ "Curso Practico de Node.js")
-(https://platzi.com/p/rodcko2417/ Usuario de Platzi")
+------------
+
+- (https://platzi.com/clases/practico-node/ "Curso Practico de Node.js")
+- (https://platzi.com/p/rodcko2417/ Usuario de Platzi")
