@@ -2,7 +2,7 @@
 Proyecto de un **API** para una red social, tecnologias utilizadas:
 
 - Node.js / Express.js
-- Autenticacion con JWT y cifrado con bycrypt
+- Autenticacion con JWT y cifrado con bcrypt
 - Base de datos MySql
 - Manejo de cache con Redis
 - Documentacion con swagger-ui-express
