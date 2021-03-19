@@ -1,24 +1,24 @@
-# API RED SOCIAL
-Proyecto de un **API** para una red social, tecnologias utilizadas:
+# SOCIAL NETWORK API
+Project of an ** API ** for a social network, technologies used:
 
 - Node.js / Express.js
-- Autenticacion con JWT y cifrado con bcrypt
-- Base de datos MySql
-- Manejo de cache con Redis
-- Documentacion con swagger-ui-express
-- Gestion de microservicios con PM2
-- Despliegue con Zeit Now
+- Authentication with JWT and encryption with bcrypt
+- MySql database
+- Cache management with Redis
+- Documentation with swagger-ui-express
+- Management of microservices with PM2
+- Deployment with Zeit Now
 
-Como instalar el proyecto:
+How to install the project:
 `npm install`
 
-Como iniciar el proyecto:
-En la carpeta raiz ejecutar los siguientes comandos para iniciar cada **api** con el gestor PM2:
-- `pm2 start mysql/index.js` - API de MySql
-- `pm2 start post/index.js`   - API de servicio de Posts
-- `pm2 start api/index.js`     - API principal
+How to start the project:
+In the root folder execute the following commands to start each ** api ** with the PM2 manager:
+- `pm2 start mysql/index.js` - MySql API
+- `pm2 start post/index.js`  - Posts service API
+- `pm2 start api/index.js`   - Main API
 
 
 ------------
-- Curso Practico de Node.js: https://platzi.com/clases/practico-node/
-- Usuario de Platzi: https://platzi.com/p/rodcko2417/
+- Node.js Practical Course: https://platzi.com/clases/practico-node/
+- Platzi User: https://platzi.com/p/rodcko2417/
